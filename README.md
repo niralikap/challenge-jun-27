@@ -22,7 +22,7 @@ In this challenge, I have developed my portfolio website. This website has html 
 
 - The "Work" section shows the images horizontal when the window size is decreased.
 
-![image](./Assets/images/screenshot.png)
+![image](./Assets/images/screenshot.jpg)
 
 The website link:
 
