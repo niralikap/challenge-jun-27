@@ -130,9 +130,20 @@ section {
 .work img {
     border-style: solid;
     border: 8px solid var(--link-nav);
+}
+
+.fanpage {
     background-image: url("../images/fanpage.jpg");
+}
+
+.watchbox {
     background-image: url("../images/box.jpg");
+    display: inline;
+}
+
+.student {
     background-image: url("../images/student-bio.jpg");
+    display: inline;
 }
 
 .work img:hover{
