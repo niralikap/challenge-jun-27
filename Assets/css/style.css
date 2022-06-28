@@ -130,6 +130,9 @@ section {
 .work img {
     border-style: solid;
     border: 8px solid var(--link-nav);
+    background-image: url("../images/fanpage.jpg");
+    background-image: url("../images/box.jpg");
+    background-image: url("../images/student-bio.jpg");
 }
 
 .work img:hover{
