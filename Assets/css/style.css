@@ -133,15 +133,21 @@ section {
 }
 
 .fanpage {
+    height: 300px;
+    width: 80%;
     background-image: url("../images/fanpage.jpg");
 }
 
 .watchbox {
+    height: 300px;
+    width: 40%;
     background-image: url("../images/box.jpg");
     display: inline;
 }
 
 .student {
+    height: 300px;
+    width: 30%;
     background-image: url("../images/student-bio.jpg");
     display: inline;
 }
