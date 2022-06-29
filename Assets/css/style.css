@@ -201,23 +201,7 @@ mark {
     color: var(--hover-link-footer);
 }
 
-@media screen and (max-width: 852px) {
-    .header {
-      background: var(--nav-size-change);
-    }
-  }
 
-  @media screen and (max-width: 748px) {
-    a{
-        color: var(--hover-link-footer);
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .sub-title{
-        position: relative;   
-    }
-  }
 
  /* @media screen and (max-width: 600px) {
     .hero{
@@ -248,6 +232,23 @@ mark {
     margin-top: 2%;
   }
   
+  @media screen and (max-width: 852px) {
+    .header {
+      background: var(--nav-size-change);
+    }
+  }
+
+  @media screen and (max-width: 748px) {
+    a{
+        color: var(--hover-link-footer);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .sub-title{
+        position: relative;   
+    }
+  }
   
   
 
