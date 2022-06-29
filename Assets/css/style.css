@@ -100,6 +100,7 @@ aside {
     width: 25%;
     font-size: 40px;
     color: var(--font-color);
+    display: flex;
 }
 
 .me {
@@ -246,10 +247,34 @@ mark {
 
   @media screen and (max-width: 600px) {
     .sub-title{
-        position: relative;   
+        position: relative;
+        left: 10px;   
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    aside{
+        width: 30%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-me {
+        width: 70%;
     }
   }
   
+  @media screen and (max-width: 600px) {
+    .work {
+        width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .links {
+        width: 70%;
+    }
+  }
   
 
   
