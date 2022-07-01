@@ -81,22 +81,23 @@ p {
 }
 
 .content {
+    flex: 0 1 0;
     width: 90%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.about-me {
+/*.about-me {
     float: right;
 
-}
+}*/
 
 aside {
     margin-left: 30px;
     /*flex: 30%;*/
     margin-top: 50px;
     padding: 10px;
-    float: left;
+    /*float: left;*/
     width: 25%;
     font-size: 40px;
     color: var(--font-color);
@@ -110,7 +111,7 @@ summary {
     margin-left: 300px;
     margin-top: -150px;
     /*flex: 70%;*/
-    float: right;
+    /*float: right;*/
     border-style: solid;
     border-width: 0 0 0 5px;
     padding-left: 40px;
@@ -121,7 +122,7 @@ section {
     margin-left: 300px;
     margin-top: -80px;
     /*flex: 70%;*/
-    float: right;
+    /*float: right;*/
     border-style: solid;
     border-width: 0 0 0 5px;
     padding-left: 80px; 
@@ -172,7 +173,7 @@ section {
     margin-left: 300px;
     margin-top: -130px;
     /*flex: 70%;*/
-    float: right;
+    /*float: right;*/
     /*border-style: solid;
     border-width: 0 0 0 5px;*/
     padding-left: 80px;  
@@ -223,6 +224,7 @@ mark {
     /* Defines how to distribute the empty space between child elements */
     justify-content: space-between;
     padding: 60px;
+    flex-direction: row;
   }
 
   .header nav{
@@ -254,27 +256,36 @@ mark {
 
   @media screen and (max-width: 600px) {
     aside{
-        width: 30%;
+        width: 10%;
+        flex-direction: column;
     }
   }
 
   @media screen and (max-width: 600px) {
     .about-me {
-        width: 70%;
+        width: 90%;
+        flex-direction: column;
     }
   }
   
   @media screen and (max-width: 600px) {
     .work {
-        width: 70%;
+        width: 90%;
+        flex-direction: column;
     }
   }
 
   @media screen and (max-width: 600px) {
     .links {
-        width: 70%;
+        width: 90%;
+        flex-direction: column;
     }
   }
   
-
+  @media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+  }
+  
   
